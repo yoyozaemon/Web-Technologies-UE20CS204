@@ -1,0 +1,73 @@
+<html>
+<head>
+<title> REGISTRATION FORM</title>
+<link rel="stylesheet" href="./index.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<script>
+    $(document).ready(function(){
+      $(".btn1").click(function(){$("h4").hide();
+          });
+         $(".btn2").click(function(){
+        $("h4").show();
+      });
+    
+    });
+    </script>
+    <script>  
+    $(document).ready(function(){  
+        $("button").click(function(){  
+            $("div.d1").toggle(1500);  
+        });  
+    });  
+    </script>  
+</head>
+<body>
+<h1 align="center"><u>Sign-Up-Form </u></h1>
+<h4 align="center"><STRONG>I LOVE JQUERY</STRONG></h4><br>
+
+<button>Click here Toggle</button><br>  
+<div class="d1" >  
+<p><b>Facebook</b> 
+</div> 
+
+<br><form>
+
+<div class="container">
+<p><b>Please fill in the details</b></p>
+<hr>
+<label for="fname"><b>FirstName</b>
+<input type="text" placeholder="Enter Fname" name="fname"> <label for="lname"><b>LastName</b>
+<input type="text" placeholder="Enter Lname" name="lname">
+<hr>
+<br><label for="email"><b>Enter Email</b></label>
+<input type="text" placeholder="Enter Email" name="email"><br>
+<hr>
+<br><label for="phno"><b>Phonenumber</b></label>
+<input type="number" placeholder="Enter Phonenumber" maxlength="13"> 
+<hr><br>
+<label for="address"><b>Address</b></label>
+<input type="text" placeholder="Enter Address" maxlength="50"><br>
+<hr>
+</div>
+
+</script>
+</div>
+<input type="reset"/>
+</form>
+
+<script>
+function myfun() {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "emjoi.jpg");
+  x.setAttribute("width", "100");
+  x.setAttribute("height", "70");
+  x.setAttribute("alt", "The emoji");
+  document.body.appendChild(x);
+}
+</script>
+<a href="video.html"></a>
+<input type="submit" onclick="myfun()"> 
+</a>
+</body>
+</html>
